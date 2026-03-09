@@ -1,6 +1,5 @@
-const books = [
-    {id: 1, name: "Atomic Habits"},
-    {id: 2, name: "Deep Work"}
+const cars = [
+    {id: 1, name: "Porsche 911"},
 ]
 
-export default books;
+export default cars;

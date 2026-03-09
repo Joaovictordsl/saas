@@ -27,9 +27,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-800`}
       >
-        NavBar
+        <header className="shadow-sm bg-gray-900">
+          <div className="container mx-auto px-4 py-4">
+            <h1 className="text-xl font-light text-white">Porsche App</h1>
+          </div>
+        </header>
         {children}
-        Footer
+        <footer className="shadow-sm">
+          <div className="container mx-auto px-4 py-4">
+            <h2 className="text-xl font-light text-white">Footer</h2>
+          </div>
+        </footer>
       </body>
     </html>
   );

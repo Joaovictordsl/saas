@@ -1,13 +1,13 @@
-import books from "../db";
+import cars from "../db";
 
 export async function GET(){
-    return Response.json(books);
+    return Response.json(cars);
 }
 
 export async function POST(request: Request){
     const book = await request.json();
-    books.push(book);
+    cars.push(book);
 
-    return Response.json(books);
+    return Response.json(cars);
 }
 
