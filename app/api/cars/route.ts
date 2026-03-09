@@ -5,8 +5,8 @@ export async function GET(){
 }
 
 export async function POST(request: Request){
-    const book = await request.json();
-    cars.push(book);
+    const car = await request.json();
+    cars.push(car);
 
     return Response.json(cars);
 }
